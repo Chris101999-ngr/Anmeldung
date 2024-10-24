@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anmeldung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Anmelden</h1>
+        <form id="loginForm">
+            <label for="username">Benutzername</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Passwort</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Anmelden</button>
+        </form>
+        <p id="error-message" class="hidden">Ungültiger Benutzername oder Passwort.</p>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
